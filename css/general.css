@@ -43,6 +43,12 @@ body {
   gap: 2.4rem;
 }
 
+.grid--2-col--1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
 .tertiary-heading-main {
   font-size: 1.6rem;
   font-weight: 600;
@@ -72,4 +78,15 @@ body {
   padding: 0.9rem;
   margin-top: 1.2rem;
   margin-bottom: 0.9rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.desc-icon-small {
+  fill: #159057;
+  width: 16px;
+  height: 16px;
 }
