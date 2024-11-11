@@ -630,3 +630,19 @@
   color: #555;
   margin-bottom: 0.8rem;
 }
+
+/* *************** */
+/* PRICING SECTION */
+/* **************** */
+.pricing-section {
+  padding: 4rem 3.2rem;
+  color: #010300;
+}
+
+.pricing-header {
+  padding: 3.2rem;
+  margin: 1.2rem;
+}
+
+
+class="price-icon"
