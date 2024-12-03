@@ -637,6 +637,7 @@
 .pricing-section {
   padding: 4rem 3.2rem;
   color: #010300;
+  background-color: #f7f2e7;
 }
 
 .pricing-header {
@@ -647,11 +648,70 @@
 .price-tags {
   padding: 2.4rem;
   display: flex;
-  gap: 1.4rem;
+  gap: 1.6rem;
   align-items: center;
   justify-content: space-around;
 }
 
 .pricing-tb {
-  background-color: #8ac8ab;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 2.4rem;
+  border-radius: 12px;
+}
+
+.price-header {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.price-sec {
+  font-size: 1.4rem;
+  margin-top: -3rem;
+  color: #adb5bd;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+.price-price-txt {
+  font-size: 3.6rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.price--price-text-sub {
+  margin-top: -4.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #606163;
+}
+
+.price-link {
+  display: inline-block;
+  border: 1px solid #010300;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #adb5bd;
+  padding: 1.8rem;
+  color: #010300;
+  text-align: center;
+  border-radius: 1.2rem;
+}
+
+.price-list-details {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 1.4rem;
+  font-size: 1.6rem;
+}
+
+.price-det-list:not(:last-child) {
+  margin-bottom: 1.4rem;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
 }
